@@ -1,0 +1,17 @@
+.company{
+    color: #888888;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.panel-heading{
+    font-size:115%;
+}
+
+.jobTitle{
+    font-weight: bold;
+}
+
+.dates{
+    font-style: italic;
+}
