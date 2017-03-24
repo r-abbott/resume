@@ -1,15 +1,49 @@
 {
-    "summary":{},
+    "profile":{
+        "name":"John Q. Public",
+        "links": [
+            {
+                "name":"jqp-linkedin",
+                "icon":"linkedin",
+                "url":"https://www.linkedin.com"
+            },
+            {
+                "name":"jqp-twitter",
+                "icon":"twitter",
+                "url":"https://www.twitter.com"
+            },
+            {
+                "name":"john public",
+                "icon":"facebook",
+                "url":"https://www.facebook.com"
+            },
+            {
+                "name":"jqp-github",
+                "icon":"github",
+                "url":"https://www.github.com"
+            },
+            {
+                "name":"johnpub-so",
+                "icon":"stack-overflow",
+                "url":"https://www.stack-overflow.com"
+            },
+            {
+                "name":"jpublic@email.email",
+                "icon":"envelope",
+                "url":"mailto:email@email.com"
+            }
+        ],
+        "summary":"I'm a software engineer who loves to code. I enjoy working with web technologies like [.net mvc] and [jquery], and enjoy writing with [c#]. Also, I'm decent with database tech like [sql server]. I enjoy making delicious cookies and sharing them with all my co-workers."
+    },
     "skills":
     [
         {"tag":"c#", "name":"C#", "type":"languages"},
-        {"tag":".net 4.5", "name":".NET 4.5", "type": "frameworks", "grouping":".net", "version":"4.5"},
+        {"tag":".net 4.5", "name":".NET 4.5", "type": "frameworks"},
         {"tag":".net mvc", "name":"ASP.NET MVC", "type":"frameworks"},
         {"tag":"jquery", "name":"jQuery", "type":"frameworks"},
         {"tag":"entity framework", "name":"Entity Framework", "type":"frameworks"},
         {"tag":"sql", "name":"SQL", "type":"languages", "area":"databases"},
-        {"tag":"sql server", "name":"Sql Server", "type":"databases", "area":"database"},
-        {"tag":"tdd", "name":"Test Driven Development", "type":"best practices"},
+        {"tag":"sql server", "name":"Sql Server", "type":"databases"},
         {"tag":"solid","name":"SOLID Principles", "type":"best practices"},
         {"tag":"jira", "name":"JIRA","type":"tools"},
         {"tag":"git","name":"Git", "type":"tools"},
