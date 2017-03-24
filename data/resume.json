@@ -1,0 +1,90 @@
+{
+    "summary":{},
+    "skills":
+    [
+        {"tag":"c#", "name":"C#", "type":"languages"},
+        {"tag":".net 4.5", "name":".NET 4.5", "type": "frameworks", "grouping":".net", "version":"4.5"},
+        {"tag":".net mvc", "name":"ASP.NET MVC", "type":"frameworks"},
+        {"tag":"jquery", "name":"jQuery", "type":"frameworks"},
+        {"tag":"entity framework", "name":"Entity Framework", "type":"frameworks"},
+        {"tag":"sql", "name":"SQL", "type":"languages", "area":"databases"},
+        {"tag":"sql server", "name":"Sql Server", "type":"databases", "area":"database"},
+        {"tag":"tdd", "name":"Test Driven Development", "type":"best practices"},
+        {"tag":"solid","name":"SOLID Principles", "type":"best practices"},
+        {"tag":"jira", "name":"JIRA","type":"tools"},
+        {"tag":"git","name":"Git", "type":"tools"},
+        {"tag":"unit testing","name":"Unit Testing","type":"best practices"},
+        {"tag":"code reviews","name":"Code Reviews","type":"best practices"},
+        {"tag":"design patterns","name":"Design Patterns","type":"best practices"}
+    ],
+    "experience":
+    [
+        {
+            "company": "ACMESoft",
+            "jobTitle": "Software Engineer",
+            "dates": {
+            "startDate": "02/01/2012"
+            },
+            "projects": [
+            {
+                "name": "ACME Warehousing",
+                "description": "ACME Warehouse is a data warehouse where ACMESoft stores all of their great data.",
+                "accomplishments": [
+                "Created some great internal tools with [c#],[.net 4.5],[.net mvc] and [entity framework].",
+                "Light [sql server] maintenance, [sql] debugging.",
+                "Followed [tdd], [solid] and did [code reviews] with my lead and several team members."
+                ],
+                "skills": []
+            }
+            ]
+        },
+        {
+            "company": "General Software",
+            "jobTitle": "Programmer",
+            "dates": {
+            "startDate": "02/01/2010",
+            "endDate": "02/01/2012"
+            },
+            "projects": [
+            {
+                "name": "Web Management",
+                "description": "Primary programmer for the General Software website.",
+                "accomplishments": [
+                "Improved website performance by moving to [jquery].",
+                "Upgraded [sql] stored procedures, greatly increasing performance."
+                ],
+                "skills": []
+            },
+            {
+                "name": "Desktop Applications",
+                "description": "Built and maintained inter-office applications.",
+                "accomplishments": [
+                "Worked with office staff to get requirements and feedback",
+                "Successfully deployed [c#] desktop applications to 100 computer in the office"
+                ],
+                "skills": []
+            }
+            ]
+        }
+    ],
+    "education":
+    [
+        {
+            "institution":"Barnaby Mellon",
+            "gpa":3.5,
+            "attended":{
+                "startDate": "08/01/2006",
+                "endDate": "05/01/2010"
+            },
+            "degrees":[
+                {
+                    "level": "B.S.",
+                    "area": "Computer Science",
+                    "gpa": 3.2
+                }
+            ],
+            "extras":[
+            ]
+        }
+    ]
+}
